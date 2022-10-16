@@ -23,7 +23,6 @@ function getSumOfDigits(n) {
   for (let i = 0; i < n.length; i++) {
 
     result = result + Number(n[i])
-    // result += +n[i]
   }
   if (result > 9) {
     return getSumOfDigits(result)
