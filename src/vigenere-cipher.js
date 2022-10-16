@@ -47,7 +47,7 @@ class VigenereCipheringMachine {
       }
     }
 
-    return this.direct ? result.join('') : res.reverse().join('');
+    return this.direct ? result.join('') : result.reverse().join('');
   }
 
   encrypt(msg, key) {
